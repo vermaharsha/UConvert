@@ -61,7 +61,6 @@ function App() {
       {/* Glowing background using pure CSS */}
       <div className="background-blur-img"></div>
       <div className="glassmorph-container">
-        <span className="close-btn" tabIndex={0} aria-label="Close">&times;</span>
         <div className="folder-icon"></div>
         <h2 className="main-title">Upload files</h2>
         <p className="subtitle">Select and upload the files of your choice</p>
