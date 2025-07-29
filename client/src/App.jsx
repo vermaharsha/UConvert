@@ -61,7 +61,9 @@ function App() {
       {/* Glowing background using pure CSS */}
       <div className="background-blur-img"></div>
       <div className="glassmorph-container">
-        <div className="folder-icon"></div>
+        <div className="folder-icon">
+          <img src="/folder.png" alt="folder png" />
+        </div>
         <h2 className="main-title">Upload files</h2>
         <p className="subtitle">Select and upload the files of your choice</p>
         <form

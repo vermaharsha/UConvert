@@ -45,6 +45,7 @@ body {
   text-align: center;
   position: relative;
 }
+
 @media (max-width: 600px) {
   .glassmorph-container {
     padding: 1.2rem 0.4rem 1rem 0.4rem;
@@ -52,42 +53,46 @@ body {
     min-width: unset;
     width: 97vw;
   }
-  .main-title { font-size: 1.12rem; }
-  .subtitle { font-size: 0.93rem; }
-  .folder-icon { width: 48px; height: 38px; margin-bottom: 0.8rem; }
+
+  .main-title {
+    font-size: 1.12rem;
+  }
+
+  .subtitle {
+    font-size: 0.93rem;
+  }
+
+  .folder-icon img {
+    height: 50px;
+  }
 }
+
 @media (max-width: 400px) {
-  .glassmorph-container { padding: 0.8rem 0.1rem 0.6rem 0.1rem; border-radius: 9px; width: 99vw; }
-  .main-title { font-size: 1rem; }
+  .glassmorph-container {
+    padding: 0.8rem 0.1rem 0.6rem 0.1rem;
+    border-radius: 9px;
+    width: 99vw;
+  }
+
+  .main-title {
+    font-size: 1rem;
+  }
 }
 
 
-/* --- Folder Icon Pure CSS --- */
+/* --- Folder Icon  --- */
 .folder-icon {
-  width: 62px;
-  height: 54px;
-  margin: auto;
-  margin-bottom: 1.3rem;
-  background: linear-gradient(120deg, #60a5fa 77%, #1e3a8a 100%);
-  border-radius: 17px 17px 8px 8px / 22px 22px 17px 17px;
-  box-shadow: 0 3px 12px #4980ff44, 0 0 28px #335dff33;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
-  position: relative;
+  align-items: center;
+  height: 100%;
 }
-.folder-icon::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -12px;
-  left: 12px;
-  width: 30px;
-  height: 18px;
-  border-radius: 10px 10px 0 0;
-  background: linear-gradient(95deg, #dbeafecc 66%, #3b82f6bb 100%);
-  box-shadow: 0 1px 4px #23368b33;
+
+.folder-icon img {
+  height: 70px;
+  width: auto;
 }
+
 
 /* --- Main Title and Subtitle --- */
 .main-title {
@@ -96,6 +101,7 @@ body {
   color: #fff;
   letter-spacing: 0.04em;
 }
+
 .subtitle {
   font-size: 1rem;
   color: #97a3c8;
@@ -114,6 +120,7 @@ body {
   position: relative;
   cursor: pointer;
 }
+
 .upload-box p {
   color: #b9c6f7;
   font-weight: 500;
@@ -121,11 +128,13 @@ body {
   font-size: 1.08rem;
   word-break: break-all;
 }
+
 .upload-box .hint {
   color: #90a1cb;
   font-size: 0.95rem;
   letter-spacing: 0.01em;
 }
+
 .upload-box.drag-active {
   border: 2.5px solid #60a5fa;
   background: rgba(40, 90, 170, 0.17);
@@ -139,6 +148,7 @@ body {
   align-items: center;
   margin-bottom: 1.3rem;
 }
+
 .format-dropdown {
   background: #1e293b;
   color: #dbeafe;
@@ -147,6 +157,7 @@ body {
   padding: 0.32rem 0.85rem;
   font-size: 1rem;
 }
+
 .convert-btn {
   background: linear-gradient(90deg, #3b82f6 40%, #2563eb 100%);
   color: #fff;
@@ -160,6 +171,7 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
+
 .convert-btn:disabled {
   background: #232b3b;
   color: #97a3c8;
@@ -173,6 +185,7 @@ body {
   font-weight: 500;
   font-size: 1.02rem;
 }
+
 .download-btn {
   background: linear-gradient(90deg, #60a5fa 60%, #2563eb 100%);
   color: #fff;
@@ -181,11 +194,14 @@ body {
   border-radius: 8px;
   padding: 0.45rem 1.35rem;
   box-shadow: 0 1px 8px #3b82f655;
-  transition: background 0.17s;
   font-size: 1.07rem;
   margin-top: 1.4rem;
   display: inline-block;
+  transition: background 0.4s ease, transform 0.3s ease;
 }
+
 .download-btn:hover {
-  background: linear-gradient(90deg, #2563eb 50%, #60a5fa 100%);
+  background: linear-gradient(90deg, #2563eb 60%, #60a5fa 100%);
+  color: #fff;
+  transform: translateY(-2px);
 }
