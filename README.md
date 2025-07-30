@@ -157,4 +157,4 @@ When contributing:
 ---
 
 ## Author 💻
-Made with love by Harsha Verma
+Made with love by [Harsha Verma](https://github.com/vermaharsha)
