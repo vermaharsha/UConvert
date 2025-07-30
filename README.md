@@ -1,4 +1,4 @@
-# Universal File Converter
+# UConvert - Universal File Converter
 
 A modern, web-based Universal File Converter that allows users to upload image files and convert them instantly to a chosen format with a beautiful glassmorphism-themed UI. Built with React and Node.js, featuring a fast and expandable backend powered by Sharp for image processing.
 
@@ -21,7 +21,7 @@ A modern, web-based Universal File Converter that allows users to upload image f
 
 ## Project Overview
 
-The **Universal File Converter** is a real-world utility application designed to simplify file format conversions, initially focusing on common image formats such as JPG, PNG, WEBP, and AVIF. Users can upload an image, select the desired output format, and download the converted file instantly. The project showcases key web development skills including backend file processing, API design, and responsive UI/UX with a modern themed interface.
+The **UConvert** is a real-world utility application designed to simplify file format conversions, initially focusing on common image formats such as JPG, PNG, WEBP, and AVIF. Users can upload an image, select the desired output format, and download the converted file instantly. The project showcases key web development skills including backend file processing, API design, and responsive UI/UX with a modern themed interface.
 
 ---
 
@@ -52,7 +52,7 @@ The **Universal File Converter** is a real-world utility application designed to
 ## Project Structure
 
 ```
-universal-converter/
+UConvert/
 ├── client/                  # React frontend
 │   ├── src/
 │   │   ├── App.jsx          # Main React component and UI logic
