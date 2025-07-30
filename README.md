@@ -2,6 +2,11 @@
 
 A modern, web-based Universal File Converter that allows users to upload image files and convert them instantly to a chosen format with a beautiful glassmorphism-themed UI. Built with React and Node.js, featuring a fast and expandable backend powered by Sharp for image processing.
 
+
+### Live Demo:
+🔗 Frontend: [https://u-c.vercel.app/](https://u-c.vercel.app/) <br>
+🔗 Backend API: [https://uconvert-f2mv.onrender.com](https://uconvert-f2mv.onrender.com)
+
 ---
 
 ## Table of Contents
@@ -14,8 +19,7 @@ A modern, web-based Universal File Converter that allows users to upload image f
 - [Usage](#usage)  
 - [Future Enhancements](#future-enhancements)  
 - [Showcase](#showcase)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Contributing](#contributing)
 
 ---
 
